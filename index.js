@@ -16,6 +16,7 @@
 			player=prompt("enter player name");
    	}
    }while(right!=1)
+player=player.toUpperCase();
 	var li="html";
 	var lis=document.getElementById("winel");
 	var wi=0;
@@ -122,7 +123,7 @@
 							player=prompt("enter player name");
 				   	}
 				   }while(right!=1)
-	
+					player=player.toUpperCase();
 		       	}, 4000);
 }
 	}
