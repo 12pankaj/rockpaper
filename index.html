@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rock Paper Scissor</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+ <link rel="icon" href="ass/icon1.png"/>
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+</head>
+<body>
+	<div class="container-fluid text-center">
+		<div class="row text-center">
+			<div class="col-4">
+								<h3>Rock</h3>			
+				<img src="ass/Rock.png"  onclick="src1('Rock') " class="img-fluid">
+			</div>
+			<div class="col-4">
+								<h3>Paper</h3>		
+					<img src="ass/Paper.png"  onclick="src1('Paper')" class="img-fluid">	
+			</div>
+			<div class="col-4">
+								<h3>Scissor</h3>		
+					<img src="ass/Scissor.png" onclick="src1('Scissor')" class="img-fluid">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-3"id="chan"><h3>Chance 5</h3></div>
+			<div class=" col-3 ">
+					<img src="" id="ply" class="img-fluid" />
+				</div>
+					<div class="col-3">
+						<img src="" id="com" class="img-fluid " />
+					</div>
+					<div class="col-3 invisible " id="winer">
+						<h1 id="winel">Winner</h1>
+
+					</div>
+		</div>
+
+		<div class="row">
+			<h5 id="play" class="col-3 offset-3"></h5> <h5 id="compu" class="col-3"></h5>
+		</div>
+		<div class="row text-start" id="show1"> </div>
+		<div class="row invisible" id="show2" >
+			<div class="col-4"><p>Winning</p></div>
+			<div class="col-4" id="playw">player 0</div>
+			<div class="col-4" id="compw">computer 0</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="index.js">
+
+</script>
